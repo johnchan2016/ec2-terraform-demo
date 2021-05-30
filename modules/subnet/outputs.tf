@@ -1,3 +1,7 @@
 output "subnet" {
-  value = aws_subnet.myapp-subnet-1
+  value = aws_subnet.public-subnet-1
+}
+
+output "private_subnet" {
+  value = aws_subnet.private-subnet-1
 }
